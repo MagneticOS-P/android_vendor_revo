@@ -147,16 +147,16 @@ include vendor/aosp/config/branding.mk
 # OTA
 #include vendor/aosp/config/ota.mk
 
-# OTA
-include vendor/aosp/config/packages.mk
-
 # GApps
 include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
+# Packages
+include vendor/aosp/config/packages.mk
+
 # Themes
-#include vendor/themes/config.mk
+include vendor/aosp/config/themes.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk

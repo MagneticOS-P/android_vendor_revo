@@ -17,4 +17,3 @@
 PRODUCT_PACKAGES += \
     OmniJaws \
     Eleven
-
