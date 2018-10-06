@@ -21,11 +21,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OmniStyle
 
+# Notifications
 PRODUCT_PACKAGES += \
     NotificationsDark \
     NotificationsLight \
-    NotificationsPrimary
+    NotificationsPrimary \
+    NotificationsXtended
 
+# Accents
 PRODUCT_PACKAGES += \
     AccentSluttyPink \
     AccentPixel \
@@ -41,6 +44,7 @@ PRODUCT_PACKAGES += \
     AccentRottenOrange \
     AccentDeepPurple
 
+# Themes
 PRODUCT_PACKAGES += \
     PrimaryAlmostBlack \
     PrimaryBlack \
@@ -48,5 +52,6 @@ PRODUCT_PACKAGES += \
     PrimaryWhite \
     PrimaryColdWhite \
     PrimaryWarmWhite \
-    PrimaryDarkBlue
+    PrimaryDarkBlue \
+    PrimaryXtended
 
