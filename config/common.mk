@@ -22,7 +22,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.disable_rescue=true \
     keyguard.no_require_sim=true \
     ro.build.selinux=1 \
-    ro.setupwizard.rotation_locked=true
+    ro.setupwizard.rotation_locked=true \
+    com.potato.overlay.lawnconf
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -140,6 +141,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     org.pixelexperience.keydisabler
+
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/aosp/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
 
 # Branding
 include vendor/aosp/config/branding.mk
