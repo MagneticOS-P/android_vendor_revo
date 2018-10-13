@@ -1,4 +1,4 @@
-# Copyright (C) 2018 RevolutionOS
+# Copyright (C) 2016 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,9 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := $(call my-dir)
 
-PRODUCT_PACKAGES += \
-    OmniJaws \
-    Eleven \
-    OmniJaws \
-    RomStats
+include $(CLEAR_VARS)
+LOCAL_MODULE := RomStats
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := RomStats/RomStats.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
