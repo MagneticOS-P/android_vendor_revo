@@ -53,5 +53,6 @@ PRODUCT_PACKAGES += \
     PrimaryColdWhite \
     PrimaryWarmWhite \
     PrimaryDarkBlue \
-    PrimaryXtended
+    PrimaryXtended \
+    PrimaryXtendedClear
 
