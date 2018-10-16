@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
 # Themes
 PRODUCT_PACKAGES += \
     PrimaryAlmostBlack \
+    PrimaryEyeSoother \
     PrimaryBlack \
     PrimaryOmni \
     PrimaryWhite \
