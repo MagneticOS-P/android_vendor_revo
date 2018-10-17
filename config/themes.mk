@@ -57,3 +57,10 @@ PRODUCT_PACKAGES += \
     PrimaryXtended \
     PrimaryXtendedClear
 
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileSquircleTrim
+
