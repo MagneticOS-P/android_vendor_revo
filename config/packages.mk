@@ -16,6 +16,6 @@
 PRODUCT_PACKAGES += \
     OmniJaws \
     Eleven \
-    OmniJaws \
+    OmniStyle \
     Updates \
     RomStats
