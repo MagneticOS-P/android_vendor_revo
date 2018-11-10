@@ -1,5 +1,5 @@
 # Set all versions
-CUSTOM_BUILD_TYPE ?= Beta
+CUSTOM_BUILD_TYPE ?= Unofficial
 CUSTOM_BUILD_DATE := $(shell date +%Y%m%d)
 CUSTOM_PLATFORM_VERSION := 9.0
 STATS_TYPE := 0
@@ -17,7 +17,7 @@ endif
 # Stats
 ifeq ($(CUSTOM_BUILD_TYPE), Beta)
 STATS_TYPE := http://stats.revtechs.me/aosp/betas/
-else
+else ifeq ($(CUSTOM_BUILD_TYPE), Official)
 STATS_TYPE := http://stats.revtechs.me/aosp/
 endif
 
