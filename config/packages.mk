@@ -18,4 +18,5 @@ PRODUCT_PACKAGES += \
     Eleven \
     OmniStyle \
     Updates \
-    RomStats
+    RomStats \
+    Dialer
