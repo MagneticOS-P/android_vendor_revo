@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES += \
     OmniJaws \
     Eleven \
-    OmniStyle \
     Updates \
     RomStats \
     Dialer
