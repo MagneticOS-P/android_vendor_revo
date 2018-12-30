@@ -18,4 +18,6 @@ PRODUCT_PACKAGES += \
     Eleven \
     Updates \
     RomStats \
-    Dialer
+    Dialer \
+    Launcher3 \
+    Gallery2
