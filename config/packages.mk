@@ -21,3 +21,8 @@ PRODUCT_PACKAGES += \
     Lawnchair \
 	LawnConf \
     Gallery2
+
+# Cutout control overlays
+PRODUCT_PACKAGES += \
+    HideCutout \
+    StatusBarStock
