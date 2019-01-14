@@ -23,7 +23,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
     ro.build.selinux=1 \
     ro.setupwizard.rotation_locked=true \
-    com.potato.overlay.lawnconf
+    com.revo.overlay.lawnconf
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
