@@ -21,6 +21,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OmniStyle
 
+PRODUCT_PACKAGES += \
+    ContactsTheme \
+    DocumentsUITheme \
+    DialerTheme \
+    TelecommTheme
+
 # Notifications
 PRODUCT_PACKAGES += \
     NotificationsDark \
