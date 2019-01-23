@@ -21,7 +21,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     persist.sys.disable_rescue=true \
     keyguard.no_require_sim=true \
-    ro.build.selinux=1 \
     ro.setupwizard.rotation_locked=true \
     com.revo.overlay.lawnconf
 
@@ -164,5 +163,8 @@ include vendor/aosp/config/packages.mk
 
 # Themes
 include vendor/aosp/config/themes.mk
+
+#PE Themes
+#include vendor/themes/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
