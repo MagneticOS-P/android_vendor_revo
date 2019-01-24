@@ -1,8 +1,7 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2018, The LineageOS Project
+** Copyright 2013, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -19,6 +18,8 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Remote server that can provide NTP responses. -->
-    <string translatable="false" name="config_ntpServer">2.android.pool.ntp.org</string>
+
+    <!-- extra height to add on qs status bar heigth if header enabled -->
+    <dimen name="qs_header_image_offset">25dp</dimen>
+
 </resources>
