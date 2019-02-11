@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     Dialer \
     Lawnchair \
 	LawnConf \
-    Gallery2
+    Gallery2 \
+    Recorder
 
 # Cutout control overlays
 PRODUCT_PACKAGES += \
