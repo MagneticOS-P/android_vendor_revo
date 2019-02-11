@@ -163,6 +163,6 @@ include vendor/aosp/config/packages.mk
 include vendor/aosp/config/themes.mk
 
 #PE Themes
-#include vendor/themes/config.mk
+include vendor/themes/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
